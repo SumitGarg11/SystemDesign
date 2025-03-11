@@ -270,8 +270,15 @@ This represents the highest number of read queries handled per second during pea
 ```
 
 # Memory
+```
 Description	                       Calculation    	                    Total
 
 total player count		                                                70 million
 single record of a player	         (30 + 2) bytes	                    32 bytes
 total storage for all players	     70 million * 32 bytes	             2.2 GB
+```
+# High Level Design 
+
+![alt text](image-12.png)
+
+
